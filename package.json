@@ -1,0 +1,23 @@
+{
+  "name": "zero-width-text",
+  "version": "1.0.3",
+  "description": "A library that generates zero-width text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tntntnt7/zero-width-text.git"
+  },
+  "keywords": [
+    "zero",
+    "width"
+  ],
+  "author": "tntntnt7",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tntntnt7/zero-width-text/issues"
+  },
+  "homepage": "https://github.com/tntntnt7/zero-width-text#readme"
+}

@@ -1,10 +1,11 @@
 {
   "name": "zero-width-text",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A library that generates zero-width text",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel src/ --out-dir lib"
   },
   "repository": {
     "type": "git",
@@ -14,10 +15,15 @@
     "zero",
     "width"
   ],
-  "author": "tntntnt7",
+  "author": "tntntnt7 <tntntnt7@gmail.com> (https://github.com/tntntnt7)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tntntnt7/zero-width-text/issues"
   },
-  "homepage": "https://github.com/tntntnt7/zero-width-text#readme"
+  "homepage": "https://github.com/tntntnt7/zero-width-text#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11"
+  }
 }

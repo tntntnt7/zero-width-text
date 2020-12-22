@@ -16,7 +16,7 @@ const decode = content => [...content].map(cell => {
   .map(cell => String.fromCharCode(parseInt(cell, 2)))
   .join('')
 
-export {
+export default {
   encode,
   decode,
 }

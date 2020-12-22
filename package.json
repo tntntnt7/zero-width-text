@@ -1,8 +1,8 @@
 {
   "name": "zero-width-text",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "A library that generates zero-width text",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx babel src/ --out-dir lib"

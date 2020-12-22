@@ -1,6 +1,6 @@
 {
   "name": "zero-width-text",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A library that generates zero-width text",
   "main": "lib/index.js",
   "scripts": {
